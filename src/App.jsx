@@ -7,7 +7,7 @@ function App() {
   return (
     <>
         <DaisyNav></DaisyNav>
-          <h2 className='text-5xl font-bold'>Connect with us</h2>
+          <h2 className='text-5xl font-bold mb-10'>Connect with us</h2>
           <NavBar></NavBar>
 
           
