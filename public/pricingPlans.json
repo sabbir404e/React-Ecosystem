@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Individual",
+    "price": 9.99,
+    "duration": "month",
+    "features": [
+      "1 User Access",
+      "Basic Support",
+      "Standard Features",
+      "Limited Storage"
+    ],
+    "popular": false
+  },
+  {
+    "id": 2,
+    "name": "Student",
+    "price": 4.99,
+    "duration": "month",
+    "features": [
+      "1 User Access",
+      "Student Discount",
+      "Basic Features",
+      "Email Support"
+    ],
+    "popular": false
+  },
+  {
+    "id": 3,
+    "name": "Family",
+    "price": 19.99,
+    "duration": "month",
+    "features": [
+      "Up to 5 Users",
+      "Priority Support",
+      "All Features",
+      "Shared Access",
+      "More Storage"
+    ],
+    "popular": true
+  }
+]

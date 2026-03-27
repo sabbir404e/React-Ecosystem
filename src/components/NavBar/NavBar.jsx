@@ -37,11 +37,11 @@ const NavBar = () => {
     const links = navLinks.map(link => <Link key={link.id} link={link}></Link>)
 
     return (
-        <nav className='flex justify-between mx-10'>
+        <nav className='flex justify-between mx-10 text-black md:text-white'>
             <span className='flex' onClick={() => setOpen(!open)}>
                 {open ? <X className='md:hidden'></X> : <Menu className='md:hidden'></Menu>}
 
-                <ul className='md: hidden'>
+                <ul className={`md:hidden absolute duration-1000 ${open ? 'top-20' : '-top-40'} bg-amber-200`}>
                     {links}
                 </ul>
                 
@@ -66,7 +66,7 @@ const NavBar = () => {
             }
        </ul>
 
-       <button>Sign In</button>
+       <button className='text-white'>Sign In</button>
         </nav>
     );
 };
