@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim",
+    "marks": {
+      "physics": 85,
+      "chemistry": 78,
+      "math": 92
+    }
+  },
+  {
+    "id": 2,
+    "name": "Karim",
+    "marks": {
+      "physics": 75,
+      "chemistry": 82,
+      "math": 88
+    }
+  },
+  {
+    "id": 3,
+    "name": "Ayesha",
+    "marks": {
+      "physics": 90,
+      "chemistry": 85,
+      "math": 95
+    }
+  },
+  {
+    "id": 4,
+    "name": "Nusrat",
+    "marks": {
+      "physics": 70,
+      "chemistry": 68,
+      "math": 80
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sakib",
+    "marks": {
+      "physics": 88,
+      "chemistry": 91,
+      "math": 84
+    }
+  }
+]
